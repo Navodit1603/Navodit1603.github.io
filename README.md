@@ -89,6 +89,8 @@ public class Matrix {
 
 ## Team Project 
 
+[Team Project Plan](https://github.com/Archkitten/m221-nitro-code/wiki/Teams,-Plans,-Jobs#nitro-coder)
+
 | Issues  |  Commits |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
