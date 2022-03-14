@@ -9,7 +9,7 @@ https://replit.com/@Navoditmah/menu
 
 
 
-<iframe src="https://block-racers-spoooky-edition-embed-edition.carlosrosiles1.repl.co/" name="Block Racers!" scrolling="No" height="500px" width="750px" style="border:4px solid #000000;"></iframe>
+<iframe src="https://replit.com/@Navoditmah/menu-embed?embed=true" name="Block Racers!" scrolling="No" height="500px" width="750px" style="border:4px solid #000000;"></iframe>
 
 
 
