@@ -5,7 +5,7 @@
 
 https://replit.com/@Navoditmah/menu
 
-
+[Week 1 Review Ticket](https://github.com/Navodit1603/Navodit1603.github.io/issues/1)
 ```java
 import java.util.ArrayList;
 import java.util.Arrays;
