@@ -22,13 +22,14 @@ https://replit.com/@Navoditmah/menu
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+## AP Test Prep Plan
+* Go through all CB Units
+* Do practice code problems
+* Review Important vocabulary from college board.
 
-## Individual Project
-
-Date | Name  |  Commits | 
-|-----| ------------- | ------------- |
-|x/x/xx| Content Cell  | Content Cell  |
-|x/x/xx| Content Cell  | Content Cell  |
-
-
-## N@TM Reflection
+## Tech Talk 1
+* A data structure is a method of organizing data.
+* There are many algorithms for different purposes and they interact with different data structures. Think of algorithms as dynamic underlying pieces that interact with data structures.
+* Data Structures and Algorithms can be written using different paradigms.
+* An imperative program consists of commands for the computer to perform to achieve a result. Imperative programming focuses on describing "how" a program code works.
+* Object Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects.
