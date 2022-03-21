@@ -24,11 +24,11 @@ class Queue<T> implements Iterable<T>{
 
     public void delete() {
         LinkedList<T> n = this.head.getNext();
-        if (n != null) {
+        if (n != null) { // check if head has a node
             n.setPrevNode(null);
             this.head = n;
         }else{
-            this.head= this.tail= null;
+            this.head= this.tail= null; // tail and head become the same on the last iteration
         }
     }
 
@@ -144,10 +144,10 @@ class QueueManager<T> {
     }
 
     public void deleteList(){
-        while (this.queue.getHead() != null) {
+        while (this.queue.getHead() != null) { // delete when head has a value
             this.queue.delete();
             this.count--;
-            printQueue();
+            printQueue();   // printing after removal
         }
     }
 }
