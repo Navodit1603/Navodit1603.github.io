@@ -2,6 +2,44 @@
 
 # Tech Talk Notes
 
+## Tech Talk 2
+
+Math Symbols:
+
+PEMDAS, each operator has its own precedence (priority)
+Add exponent ^ operator with priority 3
+// Helper definition for supported operators
+  private final Map<String, Integer> OPERATORS = new HashMap<>();
+  {
+  // Map<"token", precedence> 
+  OPERATORS.put("*", 3);
+  OPERATORS.put("/", 3);
+  OPERATORS.put("%", 3);
+  OPERATORS.put("+", 4);
+  OPERATORS.put("-", 4);
+  }
+
+```
+Math Original Expression (String):
+
+2 + 2
+4 * 6 + 3
+5 + 1 * 8
+(7 + 5) * 9
+Tokenization (Array):
+
+[2, +, 2]
+[4, *, 6, +, 3]
+[5, +, 1, *, 8]
+[(, 7, +, 5, ), *, 9]
+Reverse Polish Notation (Array, works well with Stack):
+
+[2, 2, +]
+[4, 6, *, 3, +]
+[5, 1, 8, *, +]
+[7, 5, +, 9, *]
+
+```
 ## Tech Talk 1
 ### Generics
 * We have to create duplicate code for differnet types without genrics.
