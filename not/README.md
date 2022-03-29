@@ -6,9 +6,11 @@
 
 Math Symbols:
 
-PEMDAS, each operator has its own precedence (priority)
-Add exponent ^ operator with priority 3
-// Helper definition for supported operators
+* PEMDAS, each operator has its own precedence (priority)
+* Add exponent ^ operator with priority 3
+* Helper definition for supported operators
+
+```
   private final Map<String, Integer> OPERATORS = new HashMap<>();
   {
   // Map<"token", precedence> 
@@ -18,7 +20,7 @@ Add exponent ^ operator with priority 3
   OPERATORS.put("+", 4);
   OPERATORS.put("-", 4);
   }
-
+```
 ```
 Math Original Expression (String):
 
