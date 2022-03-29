@@ -155,7 +155,7 @@ public class Calculator {
 
     private Double Calculate(Double num1, Double num2, String operator){
         Double answer = 0.0;
-        switch(operator){
+        switch(operator){ // switch case based on what operation we want to run. 
             case "+":
                 answer = num1 + num2;
                break;
@@ -197,15 +197,15 @@ public class Calculator {
 
     private Double rpnToResult() {
         Stack<Double> calculation = new Stack<>();
-        Double num1 = 0.0,num2 = 0.0;
-         for (int i = 0; i < reverse_polish.size(); i++){
+        Double num1 = 0.0,num2 = 0.0; // Initialize the top two numbers in the top of the stack
+         for (int i = 0; i < reverse_polish.size(); i++){ // Loop to iterate through the whole array
             String current_Token = reverse_polish.get(i);
-            if(isOperator(current_Token) ){
+            if(isOperator(current_Token) ){ // If the current token is a operator, pop the two nums in the top of the stack.
                 num2 = calculation.pop();
-                if (!current_Token.equals("√")) {
+                if (!current_Token.equals("√")) { // only need num 2 for sqrt
                   num1   = calculation.pop();
                 }
-                result = Calculate(num1, num2, current_Token);
+                result = Calculate(num1, num2, current_Token); // Method runs math operations.
                 calculation.add(result);
             }
             else{
@@ -243,13 +243,14 @@ public class Calculator {
         Calculator allMath2 = new Calculator("200 % (300 + 5 + 300) / 200 + 1 * 100");
         System.out.println("All Math2\n" + allMath2);
 
-        Calculator exponent = new Calculator("2 ^ 4 + 500");
+        Calculator exponent = new Calculator("2 ^ 4 + 500"); // Math problem with exponent
         System.out.println("Exponent\n" + exponent);
 
-        Calculator triangle = new Calculator("√((3^2) + (4^2))");
+        Calculator triangle = new Calculator("√((3^2) + (4^2))"); // EC: Math problem with sqrt
         System.out.println("Triangle\n" + triangle);
     }
 }
+
 
 ```
 ```
