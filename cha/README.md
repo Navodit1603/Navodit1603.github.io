@@ -5,7 +5,7 @@
 
 ## Week 2
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -291,7 +291,7 @@ Final result: 5.00
 
 ## Week 1
 
-```Java
+```java
 import java.util.Iterator;
 
 class Queue<T> implements Iterable<T>{
