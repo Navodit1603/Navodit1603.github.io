@@ -297,6 +297,13 @@ Original expression: √((3^2) + (4^2))
 Tokenized expression: [√, (, (, 3, ^, 2, ), +, (, 4, ^, 2, ), )]
 Reverse Polish Notation: [3, 2, ^, 4, 2, ^, +, √]
 Final result: 5.00
+Import Calculations: 
+2 + 2
+Input
+Original expression: 2 + 2
+Tokenized expression: [2, +, 2]
+Reverse Polish Notation: [2, 2, +]
+Final result: 4.00
 
 ```
 
