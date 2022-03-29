@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
+import java.util.Scanner;
 
 public class Calculator {
 
@@ -155,7 +156,7 @@ public class Calculator {
 
     private Double Calculate(Double num1, Double num2, String operator){
         Double answer = 0.0;
-        switch(operator){ // switch case based on what operation we want to run. 
+        switch(operator){ // switch case based on what operation we want to run.
             case "+":
                 answer = num1 + num2;
                break;
@@ -231,6 +232,8 @@ public class Calculator {
 
 
     public static void main(String[] args){
+        
+
         Calculator simpleMath = new Calculator("100 + 200  * 3");
         System.out.println("Simple Math\n" + simpleMath);
 
@@ -248,6 +251,13 @@ public class Calculator {
 
         Calculator triangle = new Calculator("√((3^2) + (4^2))"); // EC: Math problem with sqrt
         System.out.println("Triangle\n" + triangle);
+
+        //scanner class
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Import Calculations: ");
+        String equation = sc.nextLine();
+        Calculator input = new Calculator(equation);
+        System.out.println("Input\n"+ input);
     }
 }
 
