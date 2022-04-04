@@ -2,6 +2,33 @@
 
 # Tech Talk Notes
 
+## Tech Talk 3
+
+### Bubble Sort
+* Compares two numbers at a time.
+* Goes down the list comparing numbers.
+* After one iteration, the biggest number is sent to the end of the list
+* List starts ordering it self from the right
+* Big O notation: O(n^2)
+
+### Insetion Sort
+* Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands.
+*  The array is virtually split into a sorted and an unsorted part. 
+*  Values from the unsorted part are picked and placed at the correct position in the sorted part.
+*  Big O notation: O(n^2)
+
+### Selection Sort
+* The selection sort algorithm sorts an array by repeatedly finding the minimum element from unsorted part and putting it at the beginning.
+* Uses two sub arrays
+* Minimum element is moved to the begining of sub array
+* Big O notation: O(n)
+
+### Merge Sort
+* It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+* Uses Recursive methods to merge split arrays
+* Big O Notation: O(nlogn)
+
+
 ## Tech Talk 2
 
 Math Symbols:
