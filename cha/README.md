@@ -2,7 +2,7 @@
 
 # TPT Challeges
 
-### [Repl Runtime](https://replit.com/@NavoditMah/Datastructures-1?v=1)
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Navodit1603/Datastructures-1-embed?embed=true"></iframe>
 
 ## Week 3
 
