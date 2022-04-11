@@ -4,6 +4,7 @@
 
 #### [Data Structures Repository](https://github.com/Navodit1603/Datastructures-1)
 #### [Github Pages Repository](https://github.com/Navodit1603/Navodit1603.github.io)
+#### [Data Structures Final Video](https://www.youtube.com/watch?v=IZbuhNqkSow)
 
 ### Hi there 👋
 My name is Navodit Maheshwari, and I am learning Computer Science in AP CSA. I am currently learning Java and Thyleaf with the applications of a database. I have taken AP CSP, so I have knoldege of using Python and Jinja. My future goal with computer science is to become a video game developer or an app developer.
