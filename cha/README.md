@@ -1,4 +1,4 @@
-| [Home](..) |[TPT Notes](../not)| [Challenges](.) | [Test Prep Plans](../pln) |[Review Tickets](../rev)|
+| [Home](..) |[TPT Notes](../not)| [Challenges](.) | [Test Prep](../pln) |[Review Tickets](../rev)|
 
 # TPT Challeges
 
