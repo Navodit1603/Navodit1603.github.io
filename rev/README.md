@@ -1,4 +1,4 @@
-| [Home](..) |[TPT Notes](../not)| [Challenges](../cha) | [Test Prep Plans](../pln) |[Review Tickets](.)|
+| [Home](..) |[TPT Notes](../not)| [Challenges](../cha) | [Test Prep](../pln) |[Review Tickets](.)|
 
 # GitHub Review Tickets
 
