@@ -1,4 +1,4 @@
-| [Home](..) |[TPT Notes](.)| [Challenges](../cha) | [Test Prep Plans](../pln) |[Review Tickets](../rev)|
+| [Home](..) |[TPT Notes](.)| [Challenges](../cha) | [Test Prep](../pln) |[Review Tickets](../rev)|
 
 # Tech Talk Notes
 
