@@ -113,6 +113,14 @@ Then, the code iterates through every element to find a bigger number.
 </details>
 
 <details>
+<summary>Question 37</summary>
+<br>
+* II works because it starts from the end and the counter goes back.
+With it, the words can be printed in reverse order upto the index in the parameter.
+* III
+</details>
+
+<details>
 <summary>Question 39</summary>
 <br>
 * The first for loop prints all the elements before switching them.
