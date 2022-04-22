@@ -95,3 +95,19 @@ Then, the code iterates through every element to find a bigger number.
 * Condition: If we are not at the end of the list, add a comma
 * Else, finish the code by adding a "}"
 </details>
+
+<details>
+<summary>Question 35</summary>
+<br>
+* Dataset cut into half to find the target number
+* If number is greater than mid, first half is ignored
+* Start value gets moved to mid + 1
+* Process starts again until target is found
+</details>
+
+<details>
+<summary>Question 36</summary>
+<br>
+* As the loop iterates, the size is divided into two
+* In order to reach 1, we have to half the array 11 times.
+</details>
