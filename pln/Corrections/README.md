@@ -111,3 +111,10 @@ Then, the code iterates through every element to find a bigger number.
 * As the loop iterates, the size is divided into two
 * In order to reach 1, we have to half the array 11 times.
 </details>
+
+<details>
+<summary>Question 39</summary>
+<br>
+* The first for loop prints all the elements before switching them.
+* The second for loop also prints out each element but all of them have been changed to Alex.
+</details>
