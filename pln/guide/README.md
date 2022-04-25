@@ -67,8 +67,7 @@
 * The implements' keyword is useful to implement the interfaces in classes.
 * We know that an interface in Java is defined as a special type of class that only contains abstract methods inside it.
 * Methods just provides a plan, contract, or a prototype that the classes must follow.
-* ```java
-  package com.techvidvan.implementskeyword;
+* ```
   //Defining the Shape interface
   interface Shape {
   //declaring an abstract method of the interface
