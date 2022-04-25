@@ -2,11 +2,6 @@
 
 ### Score: 24/39
 
-<details>
-<summary>Question 23</summary>
-<br>
-* Corrections
-</details>
 
 <details>
 <summary>Question 26</summary>
@@ -20,7 +15,9 @@
 <details>
 <summary>Question 27</summary>
 <br>
-
+* Two for loops for sorting algorithm
+* Keep track of variables on paper
+* Moves number in the back to front
 </details>
 
 
@@ -117,7 +114,15 @@ Then, the code iterates through every element to find a bigger number.
 <br>
 * II works because it starts from the end and the counter goes back.
 With it, the words can be printed in reverse order upto the index in the parameter.
-* III
+* III works because it moves items in the front to the back.
+</details>
+
+<details>
+<summary>Question 38</summary>
+<br>
+* Returns the number of elements in numbers that are equal to val
+* If statement adds one if the previous number is the same
+* Recursive method. 
 </details>
 
 <details>
