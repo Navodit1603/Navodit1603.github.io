@@ -5,4 +5,4 @@
 | --- | --------------- |
 | April 18 | [Study Plan](plan) |
 | April 19 | [Test Corrections](corrections) |
-| April 20 | [Test Corrections](guide) |
+| April 20 | [Study Guide](guide) |
