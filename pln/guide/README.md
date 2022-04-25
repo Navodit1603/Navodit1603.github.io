@@ -12,17 +12,17 @@
   ```
   
 * The total number of elements that can be stored in a multidimensional array can be calculated by multiplying the size of all the dimensions.
-* ```
-  int[][] arr2D = {{1, 1, 5, 3, 4}, {12, 7, 6, 1, 9}, {8, 11, 10, 2, 5}, {3, 2, 3, 0, 6}};
-   public static int[] rowSum(int[][] arr2D){
-        int[] arr = new int[arr2D.length];
-        for(int i = 0; i < arr2D.length; i++){
-            arr[i] = arraySum(arr2D[i]);
-        }
-        for(int i = 0; i < arr.length; i++){
-        }
-        return arr;
-    }
+  * ```
+    
+     public static int[] rowSum(int[][] arr2D){
+          int[] arr = new int[arr2D.length];
+          for(int i = 0; i < arr2D.length; i++){
+              arr[i] = arraySum(arr2D[i]);
+          }
+          for(int i = 0; i < arr.length; i++){
+          }
+          return arr;
+      }
 
 ## Substring
 * This method has two variants and returns a new string that is a substring of this string. The substring begins with the character at the specified index and extends to the end of this string. And index of substring starts from 1 and not from 0.
