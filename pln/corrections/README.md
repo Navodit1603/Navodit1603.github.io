@@ -290,7 +290,7 @@ With it, the words can be printed in reverse order upto the index in the paramet
 <summary>Question 3</summary>
 <br>
 
-```java
+```
 public class SparseArrayEntry {
 
     // row and column index for this entry in the sparse array
@@ -330,12 +330,12 @@ public class SparseArrayEntry {
 <summary>Question 4</summary>
 <br>
 
-```java
+```
 public interface NumberGroup {
     boolean contains(int i);
 }
 ```
-```java
+```
 public class Range implements NumberGroup {
     private int min;
     private int max;
@@ -351,7 +351,7 @@ public class Range implements NumberGroup {
     }
 }
 ```
-```java
+```
 import java.util.Arrays;
 import java.util.List;
 
