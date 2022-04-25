@@ -26,7 +26,7 @@
 
 ## Substring
 * This method has two variants and returns a new string that is a substring of this string. The substring begins with the character at the specified index and extends to the end of this string. And index of substring starts from 1 and not from 0.
-* ```java
+* ```
     String str = new String("navodit");
     System.out.println(str.substring(3));
     System.out.println(str.substring(3, 5));
