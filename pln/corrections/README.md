@@ -178,7 +178,8 @@ With it, the words can be printed in reverse order upto the index in the paramet
 
 ## FRQ
 
-[Repl]()
+* [FRQ](https://drive.google.com/file/d/1gWqgAsqmUE9M-JYlVYFrVV1W5nNlHMdl/view?usp=sharing)
+* [Repl]()
 
 <details>
 <summary>Question 1</summary>
