@@ -1,5 +1,6 @@
 # 2015 AP Exam Practice Test Corrections
 
+## MC
 ### Score: 24/39
 
 
@@ -130,4 +131,201 @@ With it, the words can be printed in reverse order upto the index in the paramet
 <br>
 * The first for loop prints all the elements before switching them.
 * The second for loop also prints out each element but all of them have been changed to Alex.
+</details>
+
+## FRQ
+
+[Repl]()
+
+<details>
+<summary>Question 1</summary>
+<br>
+
+```java
+    public static int arraySum(int[] arr){
+        int sum = 0;
+        for(int i = 0; i < arr.length; i++){
+            sum += arr[i];
+        }
+        return sum;
+    }
+
+    public static int[] rowSum(int[][] arr2D){
+        int[] arr = new int[arr2D.length];
+        for(int i = 0; i < arr2D.length; i++){
+            arr[i] = arraySum(arr2D[i]);
+        }
+        for(int i = 0; i < arr.length; i++){
+        }
+        return arr;
+    }
+
+    public static boolean isDiverse(int[][] arr2D){
+        int[] sums = rowSum(arr2D);
+        for(int i = 0; i < sums.length; i++){
+            for(int j = i + 1; j< sums.length; j++){
+                if(sums[i] == sums[j]){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args){
+        int[] arr = {2, 3, 5, 6, 4, 1};
+        int[][] arr2D = {{1, 1, 5, 3, 4}, {12, 7, 6, 1, 9}, {8, 11, 10, 2, 5}, {3, 2, 3, 0, 6}};
+
+        int sum = arraySum(arr);
+        System.out.println("Sum");
+        System.out.println(sum);
+        System.out.println("");
+
+        int[] array = rowSum(arr2D).clone();
+        System.out.println("Array");
+        for(int i = 0; i < array.length; i++){
+            System.out.print(array[i] + " ");
+        }
+        System.out.println("");
+        System.out.println("");
+
+        Boolean diverse = isDiverse(arr2D);
+        System.out.println("Boolean");
+        System.out.println(diverse);
+        System.out.println("");
+    }
+```
+</details>
+
+<details>
+<summary>Question 2</summary>
+<br>
+
+```
+    public String word;
+
+    public HiddenWord(String m_word){
+        word = m_word;
+    }
+
+    public String getHint(String guess){
+        String hint = "";
+        for(int i = 0; i < guess.length(); i++){
+            if(guess.substring(i, i+1).equals(word.substring(i,i+1))){
+                hint += guess.substring(i, i+1);
+            }
+            else if(word.contains(guess.substring(i, i + 1))){
+                hint += "+";
+            }
+            else {
+                hint += "*";
+            }
+        }
+        return hint;
+    }
+
+    public static void main(String[] args){
+        HiddenWord hint = new HiddenWord("navodit");
+        System.out.println("Type in a word: ");
+        for(int i = 0; i < 4; i++) {
+            Scanner scan = new Scanner(System.in);
+            String guess = scan.nextLine();
+            String result = hint.getHint(guess);
+            System.out.println(result);
+            if(guess.equals(result)){
+                break;
+            }
+        }
+    }
+```
+
+</details>
+
+
+<details>
+<summary>Question 3</summary>
+<br>
+
+```java
+public class SparseArrayEntry {
+
+    // row and column index for this entry in the sparse array
+    private int row;
+    private int col;
+
+    // the value of this entry in the sparse array
+    private int value;
+
+    public SparseArrayEntry(int r, int c, int v){
+        row = r;
+        col = c;
+        value = v;
+    }
+
+    public int getRow(){
+        return row;
+    }
+
+    public int getCol(){
+        return col;
+    }
+
+    public int getValue(){
+        return value;
+    }
+
+
+}
+
+
+```
+
+</details>
+
+<details>
+<summary>Question 4</summary>
+<br>
+
+```java
+public interface NumberGroup {
+    boolean contains(int i);
+}
+```
+```java
+public class Range implements NumberGroup {
+    private int min;
+    private int max;
+
+    public Range(int min, int max) {
+        this.min = min;
+        this.max = max;
+    }
+
+    @Override
+    public boolean contains(int i) {
+        return this.min <= i && i <= this.max;
+    }
+}
+```
+```java
+import java.util.Arrays;
+import java.util.List;
+
+public class MultipleGroups implements NumberGroup { 
+    private List<NumberGroup> groupList;
+
+    public MultipleGroups(NumberGroup... groups) {
+        this.groupList = Arrays.asList(groups);
+    }
+
+    @Override
+    public boolean contains(int i) {
+        for (NumberGroup group : groupList)
+            if (group.contains(i))
+                return true;
+        return false;
+    }
+}
+```
+
 </details>
