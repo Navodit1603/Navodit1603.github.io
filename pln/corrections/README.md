@@ -218,7 +218,7 @@ With it, the words can be printed in reverse order upto the index in the paramet
 
     public static void main(String[] args){
         int[] arr = {2, 3, 5, 6, 4, 1};
-        int[][] arr2D = {{1, 1, 5, 3, 4}, {12, 7, 6, 1, 9}, {8, 11, 10, 2, 5}, {3, 2, 3, 0, 6}};
+        int[][] arr2D = "{{1, 1, 5, 3, 4}, {12, 7, 6, 1, 9}, {8, 11, 10, 2, 5}, {3, 2, 3, 0, 6}}";
 
         int sum = arraySum(arr);
         System.out.println("Sum");
