@@ -4,5 +4,5 @@
 | Date | Task |
 | --- | --------------- |
 | April 18 | [Study Plan](plan) |
-| April 19 | [Test Corrections](week1/corrections) |
+| April 19 | [Test Corrections](corrections/week1) |
 | April 20 | [Study Guide](guide) |
