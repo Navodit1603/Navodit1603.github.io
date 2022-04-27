@@ -181,9 +181,7 @@ With it, the words can be printed in reverse order upto the index in the paramet
 * [FRQ](https://drive.google.com/file/d/1gWqgAsqmUE9M-JYlVYFrVV1W5nNlHMdl/view?usp=sharing)
 * [Repl](https://replit.com/@NavoditMah/2015frq?v=1)
 
-<details>
-<summary>Question 1</summary>
-<br>
+#### Question 1
 
 ```
     public static int arraySum(int[] arr){
@@ -239,11 +237,9 @@ With it, the words can be printed in reverse order upto the index in the paramet
         System.out.println("");
     }
 ```
-</details>
 
-<details>
-<summary>Question 2</summary>
-<br>
+
+#### Question 2
 
 ```
     public String word;
@@ -283,12 +279,9 @@ With it, the words can be printed in reverse order upto the index in the paramet
     }
 ```
 
-</details>
 
 
-<details>
-<summary>Question 3</summary>
-<br>
+#### Question 3
 
 ```
 public class SparseArrayEntry {
@@ -324,11 +317,8 @@ public class SparseArrayEntry {
 
 ```
 
-</details>
 
-<details>
-<summary>Question 4</summary>
-<br>
+#### Question 4
 
 ```
 public interface NumberGroup {
@@ -372,4 +362,3 @@ public class MultipleGroups implements NumberGroup {
 }
 ```
 
-</details>
