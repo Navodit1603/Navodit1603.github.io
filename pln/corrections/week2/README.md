@@ -32,4 +32,38 @@
 * Borrower is a variable which can be compared.
 * Can directly compare to null.
 
-#### Question 
+#### Question 15
+* Filler
+
+#### Question 17
+* Since j is initialized as a SuperHero object, the j.powerUp(10) method accessed is from the subclass.
+* Subclass method uses super keyword with the parameter 20.
+* Subclass adds p to original power value (50 + 2*10).
+
+#### Question 19
+* Nested for loop
+* First element in each row is multiplied by two
+* Sum of all the elements
+* Keep track of variables when debugging 
+
+#### Question 20
+* Nested for loop goes through each book in array
+* getpages() used to get number of pages for each book
+* Compare it to max page value and switch if condition is met
+
+#### Question 23
+* Nested for each loop goes through every element in double array.
+* When using nested for loop, don't need to use index number
+* nested for loop references the element itself.
+
+#### Question 24
+* y is a static variable, it is linked with everything in the class
+* When y is called, it increases by one
+* Going through the methods, the y value ends up to be 14.
+
+#### Question 26
+* filler
+
+#### Question 28
+* filler
+
