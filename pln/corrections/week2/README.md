@@ -91,3 +91,8 @@
 * obj1 is declared as an object of type A. Therefore, at compile time, there must be a message method in class A or its superclass.
 * If the message method in class A is removed, the statement in line 3 will no longer compile.
 
+
+## FRQ
+
+* [Written Test](https://drive.google.com/file/d/1i3B6zKsVFKeJBF8lN6tVhNq5Ir8uLYLm/view?usp=sharing)
+* [Repl](https://replit.com/@NavoditMah/StudyWeek2?v=1)
